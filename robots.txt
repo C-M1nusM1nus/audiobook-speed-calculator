@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://c-m1nusm1nus.github.io/audiobook-speed-calculator/sitemap.xml
