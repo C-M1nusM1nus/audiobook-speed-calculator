@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>
+      https://c-m1nusm1nus.github.io/audiobook-speed-calculator/
+    </loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>
+      https://c-m1nusm1nus.github.io/audiobook-speed-calculator/about.html
+    </loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>
+      https://c-m1nusm1nus.github.io/audiobook-speed-calculator/faq.html
+    </loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>
+      https://c-m1nusm1nus.github.io/audiobook-speed-calculator/guides/best-audiobook-speed.html
+    </loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>
+      https://c-m1nusm1nus.github.io/audiobook-speed-calculator/guides/listening-time-calculator-guide.html
+    </loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>
+      https://c-m1nusm1nus.github.io/audiobook-speed-calculator/guides/audiobook-productivity-guide.html
+    </loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
