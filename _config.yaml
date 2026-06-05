@@ -1,0 +1,21 @@
+title: Audiobook Speed Calculator
+description: Calculate audiobook listening time at different playback speeds. Instantly see how long your audiobook will take at 1x, 1.25x, 1.5x, 2x and more.
+url: "https://c-m1nusm1nus.github.io"
+baseurl: "/audiobook-speed-calculator"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+author:
+  name: Grant
+
+social:
+  name: Audiobook Speed Calculator
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image: /assets/images/audiobook-speed-calculator.webp
