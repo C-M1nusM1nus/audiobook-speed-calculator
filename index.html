@@ -1,0 +1,127 @@
+---
+layout: default
+title: Audiobook Speed Calculator
+description: Calculate audiobook listening time at different playback speeds instantly.
+---
+
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+
+<header>
+  <h1>Audiobook Speed Calculator</h1>
+</header>
+
+<main>
+
+<p>
+Use this audiobook speed calculator to determine how much listening time
+you save when increasing playback speed.
+</p>
+
+<img
+  src="assets/images/audiobook-speed-calculator.webp"
+  alt="Audiobook speed calculator showing playback speed comparisons"
+  width="800"
+  height="450"
+>
+
+<section>
+
+<h2>Calculate Listening Time</h2>
+
+<label for="hours">Audiobook Hours</label>
+<input id="hours" type="number" min="0" step="0.1">
+
+<label for="speed">Playback Speed</label>
+<select id="speed">
+  <option value="1">1x</option>
+  <option value="1.25">1.25x</option>
+  <option value="1.5">1.5x</option>
+  <option value="1.75">1.75x</option>
+  <option value="2">2x</option>
+  <option value="2.5">2.5x</option>
+  <option value="3">3x</option>
+</select>
+
+<button onclick="calculateTime()">
+Calculate
+</button>
+
+<div id="result"></div>
+
+</section>
+
+<section>
+
+<h2>Popular Audiobook Speed Examples</h2>
+
+<table>
+<thead>
+<tr>
+<th>Original Length</th>
+<th>1.5x Speed</th>
+<th>2x Speed</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>10 Hours</td>
+<td>6h 40m</td>
+<td>5h</td>
+</tr>
+
+<tr>
+<td>20 Hours</td>
+<td>13h 20m</td>
+<td>10h</td>
+</tr>
+
+<tr>
+<td>30 Hours</td>
+<td>20h</td>
+<td>15h</td>
+</tr>
+</tbody>
+</table>
+
+</section>
+
+<section>
+
+<h2>Related Guides</h2>
+
+<ul>
+<li><a href="guides/best-audiobook-speed.html">Best Audiobook Speed</a></li>
+<li><a href="guides/listening-time-calculator-guide.html">Listening Time Guide</a></li>
+<li><a href="guides/audiobook-productivity-guide.html">Audiobook Productivity Guide</a></li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is the best audiobook speed?</h3>
+
+<p>
+Many listeners prefer between 1.25x and 2x depending on narration style.
+</p>
+
+<h3>How much time does 2x speed save?</h3>
+
+<p>
+Listening at 2x cuts total listening time in half.
+</p>
+
+</section>
+
+</main>
+
+<script src="assets/js/calculator.js"></script>
+
+</body>
+</html>
